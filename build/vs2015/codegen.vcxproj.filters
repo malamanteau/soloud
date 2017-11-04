@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tools">
+      <UniqueIdentifier>{DA11261F-467C-DA95-8FBA-8B3BFB63B8EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tools\codegen">
+      <UniqueIdentifier>{6BA14411-D7B7-42A7-202F-CEC88C84132F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\tools\codegen\main.cpp">
+      <Filter>src\tools\codegen</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

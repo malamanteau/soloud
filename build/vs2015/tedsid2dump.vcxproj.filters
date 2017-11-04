@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tools">
+      <UniqueIdentifier>{DA11261F-467C-DA95-8FBA-8B3BFB63B8EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tools\tedsid2dump">
+      <UniqueIdentifier>{FBC92FAE-6736-EBA8-302A-83069C550D11}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\tools\tedsid2dump\cbmtune.cpp">
+      <Filter>src\tools\tedsid2dump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\tools\tedsid2dump\cpu.cpp">
+      <Filter>src\tools\tedsid2dump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\tools\tedsid2dump\main.cpp">
+      <Filter>src\tools\tedsid2dump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\tools\tedsid2dump\sid.cpp">
+      <Filter>src\tools\tedsid2dump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\tools\tedsid2dump\tedmem.cpp">
+      <Filter>src\tools\tedsid2dump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\tools\tedsid2dump\tedplay.cpp">
+      <Filter>src\tools\tedsid2dump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\tools\tedsid2dump\tedsound.cpp">
+      <Filter>src\tools\tedsid2dump</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
